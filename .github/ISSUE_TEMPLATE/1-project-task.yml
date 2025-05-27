@@ -2,7 +2,7 @@ name: Project Task
 description: Create a project task
 title: "[Filename]: [Task description]"
 body:
-  - type: input
+  -type: input
   id: relevant-files
   attributes:
     label: Relevant files
