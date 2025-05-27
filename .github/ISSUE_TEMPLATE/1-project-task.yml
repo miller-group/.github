@@ -1,0 +1,20 @@
+name: Project Task
+description: Create a project task
+title: "[Filename]: [Task description]"
+body:
+  - type: input
+  id: relevant-files
+  attributes:
+    label: Relevant files
+    description: "Which files are relevant to this task?"
+    placeholder: "e.g. settings.service.ts"
+  validations:
+    required: false
+  -type: textarea
+  id: task-description
+  attributes:
+    label: "Task description"
+    description: "What is required to be done for this task?"
+    placeholder: "e.g. update this page to display something"
+  validations:
+    required: true
