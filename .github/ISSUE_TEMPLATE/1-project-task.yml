@@ -17,4 +17,4 @@ body:
     description: "What is required to be done for this task?"
     placeholder: "e.g. update this page to display something"
   validations:
-    required: true
+    required: false
