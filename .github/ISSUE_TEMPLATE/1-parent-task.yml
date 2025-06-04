@@ -1,6 +1,7 @@
-name: Project Task
-description: Create a project task
-title: "[Filename]: [Task description]"
+name: Parent Task
+description: Create a parent task
+title: "[Describe task purpose]"
+type: "Task"
 body:
 - type: input
   id: relevant-files
@@ -13,8 +14,8 @@ body:
 - type: textarea
   id: task-description
   attributes:
-    label: "Task description"
-    description: "What is required to be done for this task?"
+    label: "Parent task description"
+    description: "What is this task meant to accomplish?"
     placeholder: "e.g. update this page to display something"
   validations:
     required: false
