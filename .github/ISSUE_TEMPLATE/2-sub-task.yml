@@ -1,0 +1,13 @@
+name: Sub-task
+description: Create a sub-task
+title: "[Describe task purpose]"
+type: "Task"
+body:
+- type: textarea
+  id: task-description
+  attributes:
+    label: "Sub-task task description"
+    description: "What should be done?"
+    placeholder: "e.g. update this page to display something"
+  validations:
+    required: false
