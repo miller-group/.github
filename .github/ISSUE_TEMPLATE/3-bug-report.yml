@@ -1,0 +1,29 @@
+name: Bug Report
+description: Create a new bug report
+title: "[Type in bug description here]"
+type: "Bug"
+body:
+- type: input
+  id: relevant-files
+  attributes:
+    label: Relevant files
+    description: "Which files are relevant to this task?"
+    placeholder: "e.g. settings.service.ts"
+  validations:
+    required: false
+- type: textarea
+  id: bug-description
+  attributes:
+    label: "Bug description"
+    description: "What is happening that shouldn't be happening?"
+    placeholder: ""
+  validations:
+    required: true
+- type: textarea
+  id: reproduce-steps
+  attributes:
+    label: "Steps to reproduce"
+    description: "What do you we need to do to reproduce the bug?"
+    placeholder: ""
+  validations:
+    required: true
